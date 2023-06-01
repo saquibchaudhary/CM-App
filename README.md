@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Contact Management and COVID-19 Statistics App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application that combines contact management functionality with COVID-19 statistics. It allows users to manage their contacts by adding, updating, and deleting contacts. Additionally, it provides a line chart visualization of COVID-19 cases and uses Leaflet to display COVID-19 data for different countries.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+1. Clone the repository to your local machine:
 
-### `npm start`
+   git clone https://github.com/saquibchaudhary/CM-App.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Navigate to the project directory
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+   cd contact-management-app
 
-### `npm test`
+3. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   npm install
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the development server:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This will launch the application in your default browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Use the contact management feature to add, update, and delete contacts.
 
-### `npm run eject`
+Explore the line chart to visualize the COVID-19 cases.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Interact with the Leaflet map to view COVID-19 data for different countries.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To build the application for production, run the following command:
+npm run build
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The optimized and minified files will be generated in the build directory. You can deploy these files to a web server of your choice.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request in this repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+This project is licensed under the MIT License.
+
+Feel free to customize the instructions and sections according to your specific app's needs.
